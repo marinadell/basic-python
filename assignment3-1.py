@@ -1,6 +1,23 @@
+# Assignment 3.1: Sphere Calculator
+# Author: Amareya Allen-Dabney
+# Date: September 28, 2025
+# Purpose: This program calculates the surface area and volume of a sphere,
+#          as well as the ratio between volume and surface area.
+# Documentation: https://docs.python.org/3/library/math.html
+
 # Import the math module
 import math
 
+# Display program description to the user
+purpose = '''
+This program calculates the surface area and volume of a sphere.
+and the ratio of volume to surface area.'''
+
+print(purpose)
+
+# Mathematical formulas used in this program:
+# Surface area of a sphere = 4 * pi * radius^2
+# Volume of a sphere = (4 * pi * radius^3) /3
 # Ratio of volume to surface area = Volume / Surface area
 
 # Get user input for sphere radius
